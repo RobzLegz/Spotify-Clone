@@ -2,8 +2,17 @@
   color: gray;
   height: 40px;
   cursor: pointer;
-  transition: 0.2s color ease-in;
+  transition: 0.15s color ease-in;
+  display: flex;
 }
 .sidebarOption:hover {
   color: #fff;
+}
+.sidebarOption-icon {
+  margin: 0 10px;
+}
+.sidebarOption > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 14px;
 }
