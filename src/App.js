@@ -17,7 +17,7 @@ const App = () => {
     const hash = getTokenFromUrl();
     window.location.hash = "";
     const _token = hash.access_token;
-
+    setToken(_token)
     if(_token) {
       dispatch({
         type: "SET_TOKEN",
@@ -37,16 +37,12 @@ const App = () => {
         });
       });
     }
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="app">
       {
-        token ? (
-          <Player spotify={spotify} />
-        ) : (
-          <Login />
-        )
+        token ? <Player spotify={spotify} /> : <Login />        
       }
     </div>
   )
