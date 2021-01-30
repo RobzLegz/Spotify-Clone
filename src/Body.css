@@ -30,9 +30,9 @@
   align-items: center;
 }
 .body-shuffle {
-  font-size: 80px;
+  font-size: large;
   margin: 20px 0 20px 50px;
-  cursor: pointer;
+  color: rgb(61, 172, 61);
 }
 .body-shuffle:hover {
   transition: 0.1s transform ease-in;
