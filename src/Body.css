@@ -4,6 +4,10 @@
   height: 100vh;
   color: #fff;
   padding: 30px;
+  overflow-y: overlay;
+}
+.body::-webkit-scrollbar {
+  display: none;
 }
 .body-info {
   display: flex;
@@ -30,9 +34,9 @@
   align-items: center;
 }
 .body-shuffle {
-  font-size: large;
+  font-size: 80px !important;
   margin: 20px 0 20px 50px;
-  color: rgb(61, 172, 61);
+  color: #1db954;
 }
 .body-shuffle:hover {
   transition: 0.1s transform ease-in;

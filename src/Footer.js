@@ -13,10 +13,10 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-left">
-                <img className="footer-album-cover" src="" alt=""/>
+                <img className="footer-album-cover" src="https://images.genius.com/4b18e10e343c317e3f8c1339fa362ce5.1000x1000x1.jpg" alt=""/>
                 <div className="footer-song-info">
-                    <h4>Yedmf</h4>
-                    <p>fdsnjf</p>
+                    <h4>Chief Keef</h4>
+                    <p>Gang Gang</p>
                 </div>
             </div>
             <div className="footer-center">
@@ -43,4 +43,4 @@ const Footer = () => {
     );
 }
 
-export default Footer
+export default Footer;
