@@ -5,6 +5,7 @@
 }
 .header-left {
   flex: 0.5;
+  min-width: 105px;
   display: flex;
   background-color: #fff;
   color: #333;
@@ -16,7 +17,7 @@
   border: none;
   width: 100%;
   outline: none;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 10px;
 }
 .header-right {
