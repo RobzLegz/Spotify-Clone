@@ -10,10 +10,10 @@
   background-color: #000;
   opacity: 0.8;
 }
-.song-row-info > h1 {
+.row-info-left > h1 {
   font-size: 16px;
 }
-.song-row-info > p {
+.row-info-left > p {
   font-size: 14px;
   margin-top: 3px;
 }
@@ -23,4 +23,14 @@
 }
 .song-row-info {
   margin-left: 20px;
+}
+.song-row-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.row-info-centre {
+  position: absolute;
+  left: 40%;
 }
