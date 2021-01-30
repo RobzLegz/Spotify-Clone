@@ -15,8 +15,6 @@ const Sidebar = () => {
             <strong className="sidebar-title">PLAYLISTS</strong>
             <hr/>
             <SidebarOption title="Hip hop" />
-            <SidebarOption title="Hip hop" />
-            <SidebarOption title="Hip hop" />
         </div>
     );
 }

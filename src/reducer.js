@@ -1,5 +1,3 @@
-import { act } from "react-dom/test-utils";
-
 export const initialState = {
     user: null,
     playlists: [],
@@ -14,6 +12,16 @@ const reducer = (state, action) => {
             return{
                 ...state,
                 user: action.user,
+            };
+        case "SET_TOKEN":
+            return{
+                ...state,
+                token: action.token,
+            };
+        case "SET_PLAYLISTS":
+            return{
+                ...state,
+                playlists: action.playlists,
             };
         default:
             return state;

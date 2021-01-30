@@ -12,6 +12,7 @@
   padding: 10px;
   margin-left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
 }
 .sidebar-title {
   margin-left: 10px;
